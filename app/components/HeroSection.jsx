@@ -12,15 +12,16 @@ const HeroSection = () => {
           <p className="text-[#cfcfcf] text-base sm:text-lg mb-6">
             sdfsdafsadfsdafsdafsadfsadfasdfasdffffff
           </p>
-          <div className="flex">
+          
             <button className=" px-6 py-3 rounded-full w-full sm:w-fit bg-bg-[#191919] hover:bg-slate-200 text-[#191919] font-semibold bg-white mr-4">
               Download CV
             </button>
+            
 
-            <button className="px-6 py-3 rounded-full w-full sm:w-fit bg-transparent hover:bg-slate-800 text-white font-semibold border border-white">
+            <button className="px-6 py-3 rounded-full w-full sm:w-fit bg-transparent hover:bg-slate-800 text-white font-semibold border border-white mt-3">
               Contact Me
             </button>
-          </div>
+          
         </div>
 
         <div className="col-span-5 place-self-center mt-4 lg:mt-0">
