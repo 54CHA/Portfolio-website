@@ -21,14 +21,16 @@ const HeroSection = () => {
                 1000,
                 "a UI/UX Designer",
                 1000,
-                "a ML developer",
+                "a ML Developer",
                 1000,
-                "a data analyst",
+                "a Data Analyst",
+                1000,
+                "a Game Developer",
                 1000,
               ]}
               wrapper="span"
               speed={50}
-              style={{display: "inline-block" }}
+              style={{ display: "inline-block" }}
               repeat={Infinity}
             />
           </h1>
@@ -37,8 +39,8 @@ const HeroSection = () => {
             sdfsadfdsfsadf sadfsadfsadfasdf
           </p>
 
-          <button className="  px-6 py-3 rounded-full w-full sm:w-fit  text-[#191919] font-semibold bg-gradient-to-tr from-yellow-300 to-orange-500 mr-4">
-            <span className="hover:bg-orange-700">Download CV</span>
+          <button className=" rounded-full w-full sm:w-fit  text-[#191919] font-semibold bg-gradient-to-tr from-yellow-300 to-orange-500 mr-4">
+            <span className="hover:bg-orange-700 block rounded-full px-6 py-3">Download CV</span>
           </button>
 
           <button className="px-1 py-1 rounded-full w-full sm:w-fit bg-transparent bg-gradient-to-tr from-yellow-300 to-orange-500 hover:bg-slate-800 text-white font-semibold mt-3">
